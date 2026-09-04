@@ -28,7 +28,6 @@ class MyApp extends StatelessWidget {
           primaryColor: const Color(0xFF1976D2),
           primarySwatch: Colors.blue,
           useMaterial3: true,
-          fontFamily: 'Cairo',
           appBarTheme: const AppBarTheme(
             backgroundColor: Color(0xFF1976D2),
             elevation: 0,
