@@ -1,0 +1,77 @@
+name: alwaseet_merchant
+description: "تطبيق تاجر متكامل - Alwaseet Merchant App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Navigation
+  cupertino_icons: ^1.0.2
+  google_nav_bar: ^5.0.6
+  curved_navigation_bar: ^1.0.3
+  
+  # State Management
+  provider: ^6.0.0
+  
+  # API & HTTP
+  http: ^1.1.0
+  dio: ^5.3.0
+  
+  # Local Storage
+  sqflite: ^2.3.0
+  path_provider: ^2.1.0
+  shared_preferences: ^2.2.0
+  
+  # JSON Serialization
+  json_serializable: ^6.7.0
+  json_annotation: ^4.8.0
+  
+  # Date & Time
+  intl: ^0.19.0
+  
+  # Charts & Analytics
+  fl_chart: ^0.65.0
+  
+  # Image & File Handling
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+  
+  # QR Code
+  qr_flutter: ^4.1.0
+  
+  # Notifications
+  flutter_local_notifications: ^14.1.0
+  
+  # Printing & PDF
+  pdf: ^3.10.0
+  printing: ^5.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/logos/
+  
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
